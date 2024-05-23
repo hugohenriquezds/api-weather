@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clima Tempo</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="" id="search_city">
+        <input
+          type="text"
+          name="cityName"
+          id="cityName"
+          placeholder="Buscar Cidade"
+        />
+
+        <button type="submit">Buscar</button>
+      </form>
+
+      <div class="icone">
+        <img src="image/season_11525992.png" alt="" />
+        <p id="city">Cidade</p>
+      </div>
+
+      <div class="status">
+        <div class="clima">
+          <p id="description">Clima</p>
+        </div>
+        <div class="temp">
+          <p id="temp">Temperatura</p>
+        </div>
+        <div class="humidade">
+          <p id="humidity">Humidade</p>
+        </div>
+      </div>
+
+      <div class="Alert" id="Alert"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
